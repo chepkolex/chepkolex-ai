@@ -33,3 +33,5 @@ rad.json
 #Test results file
 TestResults.xml
 >>>>>>> 49c0baf8a5832576cf035fcb3eb982a355d22bce
+.vercel
+.env*.local
