@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚀 Chepkolex AI
 
 Chepkolex AI is an intelligent web-based platform designed to deliver smart automation, AI-powered interactions, and scalable digital solutions.
@@ -23,3 +24,7 @@ This project focuses on building a modern AI assistant that enhances user experi
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/chepkolex/chepkolex-ai.git
+=======
+# chepkolex-ai
+Chepkolex AI is an intelligent web platform designed to provide automated assistance, smart interactions, and digital solutions for users. Built with modern web technologies, it integrates AI-driven features to enhance user experience, streamline services, and support scalable digital operations.
+>>>>>>> 49c0baf8a5832576cf035fcb3eb982a355d22bce
