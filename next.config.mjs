@@ -1,10 +1,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  async rewrites() {
+  // ... your existing rewrites ...
+  async headers() {
     return [
       {
-        source: '/api/:path*',
-        destination: 'https://chepkolex-web.vercel.app/api/:path*',
+        source: '/(.*)',
+        headers: [
+          {
+            key: 'Content-Security-Policy',
+            value: "font-src 'self' https://*.vercel-storage.com vercel.com *.vercel.com vercel.live *.gstatic.com; default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.vercel.com; style-src 'self' 'unsafe-inline' *.vercel.com;",
+          },
+        ],
       },
     ];
   },
